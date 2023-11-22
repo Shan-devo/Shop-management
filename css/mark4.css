@@ -1,0 +1,116 @@
+html, body
+{  height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  color: rgb(202, 197, 197);
+    height: 30px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .carousel-inner img{
+      height: 100%;
+      width: 100%;
+  }
+.navbar-custom{
+    background-color: rgb(20, 18, 18);
+}
+.navbar{
+    padding:0.5px;
+    
+}
+.navbar-nav li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+.btn{
+    border: 1px solid white;
+    margin: 30px;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+}
+.pj{
+    margin: 2%;
+    font-size: 0.7rem;
+    }
+.btn.active{
+    background-color:black;
+    color:white;
+}
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px  #000;
+    text-decoration: overline underline ;
+}
+.carousel-caption .row{
+    list-style-type: none;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+
+footer{
+    background-color:rgb(20, 18, 18);
+    color: #d5d5d5;
+    padding: 10px;
+}
+@media (max-width: 992px){
+
+
+}
+@media (max-width: 768px){
+
+    .carousel-caption{
+        top:40%;   
+    }
+    .carousel-caption h1{
+        font-size: 350%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px  #000;
+        text-decoration: overline underline ;
+
+    }
+    .carousel-caption .row{
+        list-style-type: none;
+        margin-top: 6%;
+        margin-left: 20%;
+    }
+    
+    
+    
+}
+@media (max-width: 576px){
+
+    .carousel-caption{
+        top:40%;   
+    }
+    .carousel-caption h1{
+        font-size: 250%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px  #000;
+        text-decoration: overline underline ;
+
+    }
+    .carousel-caption .row{
+        list-style-type: none;
+        margin-top: 6%;
+        margin-left: 20%;
+    }
+
+   .btn{
+       margin: 5px;
+   }
+    
+}
